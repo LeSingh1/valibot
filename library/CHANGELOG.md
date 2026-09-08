@@ -2,6 +2,10 @@
 
 All notable changes to the library will be documented in this file.
 
+## vX.X.X (Month DD, YYYY)
+
+- Fix `ulid` action to reject ULIDs that exceed the maximum 128-bit value (pull request #1498)
+
 ## v1.4.2 (June 28, 2026)
 
 - Fix word count actions to cache the `Intl.Segmenter` for non-primitive locales, preventing it from being recreated on every `words`, `minWords`, `maxWords` and `notWords` validation (pull request #1521)

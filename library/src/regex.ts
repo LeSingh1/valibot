@@ -204,8 +204,7 @@ export const SLUG_REGEX: RegExp = /^[\da-z]+(?:[-_][\da-z]+)*$/u;
  * timestamp cannot exceed 2^48-1, making the maximum valid ULID
  * `7ZZZZZZZZZZZZZZZZZZZZZZZZZ` in Crockford's Base32 encoding.
  */
-export const ULID_REGEX: RegExp =
-  /^[0-7][\da-hjkmnp-tv-zA-HJKMNP-TV-Z]{25}$/u;
+export const ULID_REGEX: RegExp = /^[0-7][\da-hjkmnp-tv-zA-HJKMNP-TV-Z]{25}$/u;
 
 /**
  * [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) regex.
